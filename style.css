@@ -1,0 +1,151 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.conteiner{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    background-color: hsl(213, 19%, 18%);
+    width: 88%;
+    max-width: 41rem;
+    border-radius: 1.5rem;
+    padding: 2.5rem;
+}
+
+.card h1{
+    font-size: 2.4rem;
+    color: white;
+    margin-top: 1.9rem;
+}
+
+.star{
+    background-color: hsla(216, 12%, 54%, 0.2);
+    width: fit-content;
+    width: 4rem;
+    height: 4rem;
+    padding: 1.2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.star img{
+    width: 1.4rem;
+}
+
+.text{
+    color: hsl(217, 12%, 63%);
+    font-size: 1.415rem;
+    line-height: 2.2rem;
+    margin-top: 1.2rem;
+}
+
+.rating-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rating-btn{
+    color: hsl(217, 12%, 63%);
+    font-size: 1.3rem;
+    font-weight: 700;
+    background-color: hsla(216, 12%, 54%, 0.2);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.6rem;
+}
+
+/*
+.rating-btn div{
+    transform: translateY(20%);
+}
+*/
+
+.submit-btn{
+    background-color: hsl(25, 97%, 53%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+    padding: 1.3rem;
+    border-radius: 4rem;
+    text-transform: uppercase; 
+    color: white;
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+}
+
+.submit-btn:hover{
+    background-color: white;
+    cursor: pointer;
+    color:hsl(25, 97%, 53%);
+}
+
+.rating-btn:hover{
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    color: white;
+}
+
+.active{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.card-content-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-content-2 .text{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.card-content-2 img{
+    width: 15rem;
+    margin-top: 1rem;
+}
+
+.result{
+    background-color: hsla(216, 12%, 54%, 0.2);
+    padding: 0.8rem 1.6rem;
+    border-radius: 2rem;
+    margin-top: 2.4rem;
+    margin-bottom: 0.6rem;
+}
+
+.result div{
+    color: hsl(25, 97%, 53%);
+    font-size: 1.4rem;
+}
+
+.hide{
+    display: none;
+}
